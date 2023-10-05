@@ -10,6 +10,7 @@ section.bg-top{
     background-image: url('../Imagens/montanha.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .box-fix{
@@ -23,11 +24,21 @@ section.bg-top{
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(40, 40, 40, 0.4);
+    background: rgba(100, 100, 100, 0.4);
     z-index: 1;
 }
 
 .fix-z{
     position: relative;
     z-index: 2;
+}
+
+.texto-pg{
+    color: white;
+    padding: 140px 0;
+    display: inline-block;
+}
+
+.padd30{
+    padding-right: 30px;
 }
